@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background: linear-gradient(#e66465, #9198e5);
+  background-repeat: no-repeat;
+  height: 69.3vh;
+  color: wheat;
+  user-select: none;
+}
+
+.counter-container {
+  text-align: center;
+  margin: auto;
+  margin-top: 200px;
+  max-width: 300px;
+  padding: 20px;
+  border: 5px solid #2E4053;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 25px;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.counter-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.counter-button:hover {
+  background-color: #2980b9;
+}
+
+.increment {
+  background-color: #27ae60;
+}
+
+.increment:hover {
+  background-color: #219653;
+}
+
+.decrement {
+  background-color: #e74c3c;
+}
+
+.decrement:hover {
+  background-color: #c0392b;
+}
+
+.count-display {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.reset-button {
+  background-color: #f39c12;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.reset-button:hover {
+  background-color: #d68910;
+}
